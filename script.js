@@ -7,7 +7,7 @@ function converterScript()
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
-          'Authorization' : 'Bearer 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'
+          'Authorization' : YOUR API KEY
       },
           body: JSON.stringify(
           {
