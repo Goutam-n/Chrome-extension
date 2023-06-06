@@ -1,14 +1,13 @@
 {
   "name": "Hindi to English",
-  "version" : "0.0.1",
-  "manifest_version" : 2,
-  "browser_action": {
+  "version" : "1.0.3",
+  "manifest_version" :3 ,
+  "action": {
     "default_popup": "popup.html",
     "default_logo": "logo.png"
   },
   "icons":{
     "128": "logo.png"
   },
-  "permissions": ["activeTab"]
-
+  "permissions": ["activeTab", "scripting"]
 }
